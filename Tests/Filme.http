@@ -1,0 +1,19 @@
+### Cadastrar
+POST https://localhost:5001/api/filme/create
+Content-Type: application/json
+
+{
+    "Nome" : "Bolacha",
+    "Ano" : 2004,
+    "Sinopse" : "Filme de superação com drama",
+    "Genero" : "Drama"
+    
+} 
+}
+
+### Listar filmes
+GET https://localhost:5001/api/filme/list
+
+
+### Buscar produto pelo Id
+GET https://localhost:5001/api/filme/getbyid/1
